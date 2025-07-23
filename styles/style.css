@@ -1,0 +1,67 @@
+h1 {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* shared style */
+
+.width {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+span {
+    color: #E95A08;
+}
+
+p {
+    font-size: 1.1rem;
+    margin: 0;
+    color: rgba(0, 0, 0, 50%);
+}
+
+
+/* header section style */
+
+.nav-bar {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-bar li {
+    list-style: none;
+}
+
+.nav-bar li a {
+    text-decoration: none;
+    margin-right: 25px;
+    color: #252432;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.hero-container {
+    height: 450px;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.hero-content h1 {
+    font-size: 3.2rem;
+    margin: 0px;
+}
+
