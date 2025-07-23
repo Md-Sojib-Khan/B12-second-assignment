@@ -1,16 +1,16 @@
 h1 {
-  font-family: "Noto Serif", serif;
-  font-optical-sizing: auto;
-  font-weight: bold;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
 }
 
 .inter-normal {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 /* shared style */
@@ -65,3 +65,21 @@ p {
     margin: 0px;
 }
 
+
+
+
+@media screen and (max-width: 576px) {
+
+    .mobile-none {
+        display: none;
+    }
+
+    .hero-container {
+        flex-direction: column-reverse;
+    }
+
+    .hero-content h1 {
+        font-size: 2rem;
+        margin: 20px 0;
+    }
+}
