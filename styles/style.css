@@ -389,8 +389,15 @@ p {
         margin: 10px;
     }
 
+    .card-1 {
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
     .card-2 {
         border-radius: 0px;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
     .card-3 {
