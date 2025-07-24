@@ -18,6 +18,10 @@ h1 {
     margin: 0;
 }
 
+.primary-bg {
+    background-color: rgba(245, 249, 255, 100%);
+}
+
 .width {
     max-width: 1140px;
     margin: 0 auto;
@@ -186,6 +190,32 @@ p {
 }
 
 
+/* footer section */
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+.links li {
+    display: flex;
+    flex-direction: column;
+    gap: 20px 0;
+    list-style: none;
+}
+
+.links li a {
+    text-decoration: none;
+    color: #6B7280;
+}
+
+
+.icon img {
+    margin-left: 20px;
+}
+
+
 
 
 @media screen and (max-width: 576px) {
@@ -245,5 +275,12 @@ p {
 
     .input-email {
         padding: 15px 50px 15px 15px;
+    }
+
+    .footer-container {
+        grid-template-columns: 1fr;
+        gap: 30px;
+        margin: 15px;
+        margin-top: 50px;
     }
 }
