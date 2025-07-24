@@ -374,6 +374,11 @@ p {
         margin-top: 50px;
     }
 
+
+    .latest-deals-container {
+        margin-top: 40px;
+    }
+
     .img-card-container {
         flex-direction: column;
         gap: 0px;
@@ -400,5 +405,9 @@ p {
 
     .img-card-container {
         height: auto;
+    }
+
+    .latest-deals-container p {
+        width: 95%;
     }
 }
