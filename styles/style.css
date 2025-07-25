@@ -288,6 +288,7 @@ p {
 .footer-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
     margin-top: 100px;
     margin-bottom: 40px;
 }
@@ -336,7 +337,7 @@ p {
     }
 
     .our-plants-section {
-        margin-top: 150px;
+        margin-top: 70px;
     }
 
     .our-plants-section p {
